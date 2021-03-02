@@ -1,6 +1,7 @@
 .add-note-section {
     margin-left: 25%;
     width: 50%;
+    margin-top: 2%;
 }
 
 .mat-input {
@@ -13,7 +14,8 @@
 }
 
 mat-card {
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     margin-right: 15px;
     margin-bottom: 20px;
 }
